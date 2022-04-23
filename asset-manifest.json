@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/getMore/static/css/main.01386097.css",
+    "main.js": "/getMore/static/js/main.fee94719.js",
+    "static/media/group.png": "/getMore/static/media/group.bbae6ec2fbe3c65b69ad.png",
+    "static/media/action-athlete-ball-342361.png": "/getMore/static/media/action-athlete-ball-342361.fa125a260daf5c1b5a57.png",
+    "static/media/ball-color-court-1405355.png": "/getMore/static/media/ball-color-court-1405355.2592b0f9bf81d005da35.png",
+    "static/media/group-11.png": "/getMore/static/media/group-11.54ffcd9bb1536bbfe69f.png",
+    "static/media/group-10.png": "/getMore/static/media/group-10.08582b816fb58a9634c6.png",
+    "static/media/group-12.png": "/getMore/static/media/group-12.4091605c54d623a05de7.png",
+    "static/media/fill-2-2.svg": "/getMore/static/media/fill-2-2.6f47f6644ab0bd9382b1a03bc4f15bb0.svg",
+    "static/media/fill-2.svg": "/getMore/static/media/fill-2.8e1de1dbbdea816af5234036aced1459.svg",
+    "static/media/group-24.svg": "/getMore/static/media/group-24.60b2519cea31cae942507c6c37907c9f.svg",
+    "static/media/group-copy-2.svg": "/getMore/static/media/group-copy-2.7389e78cbd265d29d17adaf006bb42b0.svg",
+    "static/media/group-22.svg": "/getMore/static/media/group-22.5f3bfa5c9776217c2a76977ec455163c.svg",
+    "static/media/group-25.svg": "/getMore/static/media/group-25.99f10a78cbef8d739ba56d1d4e19bd07.svg",
+    "index.html": "/getMore/index.html",
+    "static/media/group-23.svg": "/getMore/static/media/group-23.d48c548485874bebf905eb5771b1f720.svg",
+    "static/media/group-26.svg": "/getMore/static/media/group-26.0994fa80894b92256afebd697bae679d.svg",
+    "static/media/path.svg": "/getMore/static/media/path.2552b10956e63f1a49e4e0d9030a3732.svg",
+    "static/media/oval-2.svg": "/getMore/static/media/oval-2.db994cee888771b0b896ee1a2bac3a22.svg",
+    "static/media/oval.svg": "/getMore/static/media/oval.65f34de06b74fa14899ba315c3187c11.svg",
+    "static/media/path-2.svg": "/getMore/static/media/path-2.955511dd5a2583a7ae3dfe0af45eedf5.svg",
+    "main.01386097.css.map": "/getMore/static/css/main.01386097.css.map",
+    "main.fee94719.js.map": "/getMore/static/js/main.fee94719.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01386097.css",
+    "static/js/main.fee94719.js"
+  ]
+}
