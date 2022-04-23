@@ -1,0 +1,472 @@
+@function sv($value,
+    $idealViewportWidth: 1440,
+    ) {
+    @return calc(#{$value} * (100vw) / #{$idealViewportWidth});
+}
+
+.myshopifycom {
+    --ideal-heigth: 2438;
+    --ideal-width: 1440;
+    width: #{sv(1440)};
+    height: calc(100vw * var(--ideal-heigth) / var(--ideal-width));
+}
+/*-----------------------------------Sección de inicio--------------------------------*/
+.inicio {
+    width: #{sv(1440)};
+    height: #{sv(785)};
+    background-image: url("../assets/group.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0 #{sv(2)} #{sv(4)} 0 rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.Fill-2 {
+    position: absolute;
+    top: #{sv(25)};
+    left: #{sv(36)};
+    width: #{sv(37)};
+    height: #{sv(37)};
+    object-fit: contain;
+}
+
+.Line {
+    --white: #ffffff;
+    width: #{sv(1)};
+    height: #{sv(811)};
+    position: absolute;
+    left: #{sv(105)};
+    border-left: solid 2px var(--white);
+}
+
+.Inicio-Acerca-de-nos {
+    --white: #ffffff;
+    width: #{sv(579)};
+    height: #{sv(37)};
+    position: absolute;
+    left: #{sv(173)};
+    top: #{sv(44)};
+    font-size: #{sv(16)};
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: #{sv(1.5)};
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Inicio-Acerca-de-nos .Text-Style-10 {
+    font-weight: bold;
+    letter-spacing: #{sv(1.4)};
+    margin-right: #{sv(44)};
+}
+.spanAboutUs{
+    margin-right: #{sv(44)};
+    opacity: 0.8;
+}
+.nav {
+    word-spacing: #{sv(44)};
+    opacity: 0.8;
+}
+
+.ES-EN {
+    --white: #ffffff;
+    width: #{sv(62)};
+    height: #{sv(37)};
+    position: absolute;
+    left: #{sv(1284)};
+    top: #{sv(45)};
+    font-size: #{sv(13)};
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: #{sv(1.14)};
+    color: var(--white);
+}
+
+.ES-EN .Text-Style-5 {
+    font-weight: normal;
+    margin: 0 15px;
+}
+
+.Line-9 {
+    --white: #ffffff;
+    width: #{sv(17)};
+    height: #{sv(2)};
+    position: absolute;
+    top: #{sv(83)};
+    left: #{sv(173)};
+    border-bottom: solid 2px var(--white);
+}
+
+.Las-mejores-raquetas {
+    --white: #ffffff;
+    width: #{sv(709)}; 
+    height: #{sv(257)};
+    font-size: #{sv(53)};
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: -0.05px;
+    color: var(--white);
+
+    position: absolute;
+    left: #{sv(173)};
+    top: #{sv(255)};
+    padding-top:  #{sv(15)} ;
+}
+
+.Las-mejores-raquetas .Text-Style-7 {
+    --sickly-yellow: #cbe346;
+    font-weight: bold;
+    color: var(--sickly-yellow);
+}
+
+.Button {
+    --white: #ffffff;
+    width: #{sv(269)};
+    height: #{sv(53)};
+    padding: #{sv(15)} #{sv(39)} #{sv(15)} #{sv(30)};
+    border-radius: #{sv(26.5)};
+    border: solid #{sv(1)} var(--white);
+    position: absolute;
+    top: #{sv(456)};
+    left: #{sv(173)};
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+.aboutUsButton {
+    color: white;
+    font-weight: bold;
+    font-size: #{sv(15)};
+    white-space: nowrap;
+}
+.aboutUsArrow {
+    width: #{sv(35)};
+    height: #{sv(35)};
+    margin: 0  #{sv(10)};
+    filter: invert(97%) sepia(5%) saturate(2%) hue-rotate(245deg) brightness(116%) contrast(100%);
+}
+/*-------------------Sección de Raquetas, accesorios y pelota------------------------*/
+.Rectangle {
+    --pale-grey: #f3f4f8;
+    width: 100%;
+    height: #{sv(392)};
+    margin: 0 0 0 #{sv(3)};
+    //padding: #{sv(72)} #{sv(168)} #{sv(67)} #{sv(255)};
+    background-color: var(--pale-grey);
+    position: relative;
+}
+
+.TENNIS {
+    --sickly-yellow: #cbe346;
+    width: #{sv(174)};
+    height: #{sv(33)};
+    position: absolute;
+    left: #{sv(255)};
+    top: #{sv(104)};
+    font-size: #{sv(15)};
+    font-weight: #{sv(500)};
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: #{sv(1.87)};
+    text-align: right;
+    color: var(--sickly-yellow);
+}
+
+.RaquetasAccesorios {
+    width: #{sv(555)};
+    height: #{sv(151)};
+    position: absolute;
+    top: #{sv(72)};
+    left: #{sv(480)};
+    font-size: #{sv(50)};
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: #{sv(-0.06)};
+    color: #1e2335;
+}
+
+.Conoce-nuestras-raqu2 {
+    width: #{sv(393)};
+    height: #{sv(87)};
+    position: absolute;
+    left: #{sv(480)};
+    top: #{sv(238)};
+
+    font-size: #{sv(18)};
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: #{sv(0.51)};
+    color: #787878;
+}
+
+.ButtonRectangle {
+    position: absolute;
+    top: #{sv(272)};
+    left: #{sv(1035)};
+    width: #{sv(234)};
+    height: #{sv(53)};
+    padding: #{sv(15)} #{sv(38)};
+    border-radius: #{sv(26.5)};
+    border: solid #{sv(1)} #282e47;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.historia {
+    font-weight: bold;
+    font-size: #{sv(15)};
+}
+/*-----------------------------Sección de nuestras raquetas----------------------------*/
+.raquetas {
+    height: #{sv(468)};
+    position: relative;
+}
+
+img.ball-color-court-1405355 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: #{sv(530)};
+    height: #{sv(468)};
+    //margin: #{sv(370)} #{sv(52)} 0 #{sv(3)};
+    //padding: #{sv(38)} #{sv(27)} #{sv(62)} #{sv(190)};
+    object-fit: contain;
+    z-index: -1;
+}
+
+.Nuestras-Raquetas {
+    --white: #ffffff;
+    width: #{sv(259)};
+    position: absolute;
+    top: #{sv(38)};
+    left: #{sv(200)};
+    height: #{sv(151)};
+
+    font-size: #{sv(50)};
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: #{sv(-0.06)};
+    color: var(--white);
+    z-index: 1;
+}
+
+.Nuestras-Raquetas .Text-Style-14 {
+    font-weight: bold;
+}
+
+.Conoce-nuestras-raqu {
+    --white: #ffffff;
+    width: #{sv(303)};
+    height: #{sv(122)};
+
+    font-size: #{sv(18)};
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: #{sv(0.51)};
+    color: var(--white);
+    position: absolute;
+    top: #{sv(173)};
+    left: #{sv(200)};
+}
+
+.bullets {
+    position: absolute;
+    top: #{sv(309)};
+    left: #{sv(200)};
+    display: flex;
+}
+
+img.Oval {
+    width: #{sv(8)};
+    height: #{sv(7.8)};
+    margin: 0 #{sv(24)} 0 0;
+    object-fit: contain;
+    background-color: var(--sickly-yellow);
+}
+
+.OvalButton {
+    --white: #ffffff;
+    width: #{sv(54)};
+    height: #{sv(54)};
+    border-radius: 50%;
+    border: solid #{sv(2)} var(--white);
+    display: inline-block;
+    position: absolute;
+    top: #{sv(352)};
+    left: #{sv(190)};
+    background-position: center center;
+}
+
+img.Group-Copy-2 {
+    width: #{sv(72)};
+    height: #{sv(72)};
+    object-fit: contain;
+    transform: rotate(180deg) scaleY(-1) scaleX(-1);
+    position: absolute;
+    top: #{sv(348)};
+    left: #{sv(263)};
+    background-size: cover;
+}
+
+.arrowButton {
+    width: #{sv(13)};
+    height: #{sv(13)};
+    transform: scaleX(-1);
+    position: absolute;
+    top: #{sv(372)};
+    left: #{sv(210)};
+}
+
+
+img.Group-10 {
+    width: #{sv(288)};
+    height: #{sv(344)};
+    position: absolute;
+    left: #{sv(585)};
+    top: #{sv(51)};
+    object-fit: contain;
+}
+
+img.Group-11 {
+    width: #{sv(288)};
+    height: #{sv(344)};
+    position: absolute;
+    left: #{sv(909)};
+    top: #{sv(51)};
+    object-fit: contain;
+}
+
+img.Group-12 {
+    width: #{sv(212)};
+    height: #{sv(344)};
+    position: absolute;
+    top: #{sv(51)};
+    left: #{sv(1228)};
+    object-fit: contain;
+}
+.Num1 {
+    width: #{sv(39)};
+    height: #{sv(39)};
+    border-radius: 50%;
+    background-color: #cbe346;
+    color: #ffffff;
+    position: absolute;
+    top: #{sv(62)};
+    left: #{sv(602)};
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Num2 {
+    width: #{sv(39)};
+    height: #{sv(39)};
+    border-radius: 50%;
+    background-color: #cbe346;
+    color: #ffffff;
+    position: absolute;
+    top: #{sv(62)};
+    left: #{sv(924)};
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Num3 {
+    width: #{sv(39)};
+    height: #{sv(39)};
+    border-radius: 50%;
+    background-color: #cbe346;
+    color: #ffffff;
+    position: absolute;
+    top: #{sv(62)};
+    left: #{sv(1249)};
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*---------------------------Sección action-athlete-ball-----------------------------*/
+.courtImg {
+    height: #{sv(586)};
+}
+img.action-athlete-ball-342361 {
+    width: #{sv(1440)};
+    height: #{sv(586)};
+    margin: 0;
+    object-fit: contain;
+}
+/*--------------------------------Sección de contacto--------------------------------*/
+.Rectangle2 {
+    --sickly-yellow: #cbe346;
+    width: #{sv(1440)};
+    height: #{sv(203)};
+    //margin: #{sv(586)} 0 0;
+    //padding: #{sv(64)}  #{sv(63)}  #{sv(58)}  #{sv(78)};
+    background-color: var(--sickly-yellow);
+    position: relative;
+}
+.Inicio-Acerca-de-nos2 {
+    width: #{sv(451)};
+    height: #{sv(37)};
+    font-size: #{sv(13)};
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: #{sv(1.14)};
+    color: #2b3049;
+    position: absolute;
+    left: #{sv(78)};
+    top: #{sv(64)};
+    display: flex;
+    align-items: center;
+  }
+  
+  .Inicio-Acerca-de-nos2 .Text-Style-6 {
+    font-weight: bold;
+    margin-right: #{sv(48)};
+  }
+  .footerNav {
+      margin: 0 #{sv(48)};
+  }
+  img.Fill-22 {
+    width: #{sv(55)};
+    height: #{sv(55)};
+    position: absolute;
+    left: #{sv(1322)};
+    top: #{sv(77)};
+    object-fit: contain;
+  }
+.icons {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: #{sv(78)};
+    top: #{sv(114)};
+}
+.icon {
+    width: #{sv(31)};
+    height: #{sv(31)};
+    margin: 0 #{sv(12)} 0 0;
+    object-fit: contain;
+}
